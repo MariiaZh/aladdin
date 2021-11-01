@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aladdin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <img id="food" src="img/apple.png" width="100">
+            </div>
+            <div>
+                <img id="market" src="img/market2.jpg" width="300">
+            </div>
+            <!--<div>
+                <img src="img/seller_sm.jpg" width="300">
+            </div>-->
+
+        </section>
+
+        <section id="aladdin">
+            <img src="img/aladdin.png" width="320">
+            <div id="hints"></div>
+        </section>
+
+        <section>
+            <div class="parameters">
+                <h3>Aladdin</h3>
+                <table>
+                    <tr>
+                        <td>Health: </td>
+                        <td><meter id="HeroHealth" min="0" max="100" low="20" optimum="120" high="80"
+                                value="100"></meter>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gold: </td>
+                        <td id="HeroGold"></td>
+                    </tr>
+                    <tr>
+                        <td>Apples: </td>
+                        <td id="HeroApples"></td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="parameters">
+                <h3 id="Name">Enemy</h3>
+                <table>
+                    <tr>
+                        <td>Health: </td>
+                        <td><meter id="EnemyHealth" min="0" max="200" low="20" optimum="120" high="80"
+                                value="0"></meter></td>
+                    </tr>
+                    <tr>
+                        <td>Gold: </td>
+                        <td id="EnemyGold"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="msg" class="parameters"></div>
+            <div class="parameters">
+                <ul id="battleCourse">
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section>
+            <div id="streetFight">
+                <img src="img/street_fight_sm.jpg" width="300">
+            </div>
+            <div id="rasulFight">
+                <img src="img/rasul_sm.jpg" width="300">
+            </div>
+            <div id="jafarFight">
+                <img src="img/jafar_sm.jpg" width="300">
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>

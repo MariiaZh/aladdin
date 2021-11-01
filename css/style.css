@@ -1,0 +1,112 @@
+main {
+    font-family: 'Reggae One', cursive;
+    display: flex;
+    margin: 0px;
+    background-image: url("../img/agraba.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-color: aqua;
+}
+
+section {
+max-width: 25%;
+height: 100%;
+padding: 0px;
+}
+
+.container {
+    position: relative;
+    margin: 10px;
+    padding: 10px 20px;
+    height: 160px;
+    width: 430px;
+}
+
+#aladdin img{
+   padding: 0px;
+border: none;
+}
+
+#hints {
+    display: none;
+    position: relative;
+    background-color: rgb(240, 248, 255);
+    top: -660px;
+    left: -80px;
+    width: 170px;
+    height: auto;
+    border-radius: 50px 40px 0px 50px ;
+    border: 5px solid gold;
+    padding: 5px 15px;
+   
+    font-size: 18px;
+    text-align: center;
+}
+
+#msg {
+    text-align: center;
+}
+
+img {
+    margin: 20px;
+    border: 5px solid gold;
+    border-radius: 40px;
+}
+
+input {
+    margin: 10px;
+    background-color:white;
+    min-width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid gold;
+}
+
+
+.parameters {
+    margin: 10px;
+    padding: 10px 20px;
+    border: 5px solid gold;
+    border-radius: 40px;
+    height: auto;
+    width: 300px;
+    background-color: rgba(240, 248, 255, 0.726);
+}
+
+h3 {
+    text-align: center;
+    margin: 0px;
+}
+
+
+meter {
+    width: 200px;
+    height: 30px;
+  }
+
+meter::-webkit-meter-bar {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ddd), to(#ddd), color-stop(0.20, #eee), color-stop(0.45, #ccc), color-stop(0.55, #ccc));
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    }
+
+meter::-webkit-meter-optimum-value {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ad7), to(#ad7), color-stop(0.20, #cea), color-stop(0.45, #7a3), color-stop(0.55, #7a3));
+    height: 100%;
+    box-sizing: border-box;
+    }
+
+meter::-webkit-meter-suboptimum-value {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fe7), to(#fe7), color-stop(0.20, #ffc), color-stop(0.45, #db3), color-stop(0.55, #db3));
+    height: 100%;
+    box-sizing: border-box;
+    }
+    
+meter::-webkit-meter-even-less-good-value {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f77), to(#f77), color-stop(0.20, #fcc), color-stop(0.45, #d44), color-stop(0.55, #d44));
+    height: 100%;
+    box-sizing: border-box;
+    }
+
